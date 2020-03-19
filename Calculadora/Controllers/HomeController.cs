@@ -22,6 +22,11 @@ namespace Calculadora.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult Index(string visor,string bt)
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
